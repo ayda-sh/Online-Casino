@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {  
+    --color-red: #E80800;  
+    --color-light-gray: #EEEEEE;  
+    --color-gray: #B3B3B3;  
+    --color-dark-red: #A62E2E;  
+    --color-brown: #662424;  
+    --color-bright-red: #F13D3D;  
+    --color-dark-red: rgba(104, 22, 22, 0.59);  
+    --color-orange: #FF5E24;  
+    --color-bright-red-2: #FD0101;  
+    --color-dark-red-2: #950500;  
+    --color-yellow: #FFA200;  
+    --color-orange-2: #FF7A00;  
+    --color-light-gray-2: #DCDCDC;  
+    --color-light-gray-3: #F7F7F7; 
+    --color-bg: #21181d; 
+}
+
+body {
+    background-color: var(--color-bg);
+    font-family: "Poppins";
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-Regular.otf);
+}
+
+@font-face {
+    font-family: "Rio Grande";
+    src: url(../fonts/RioGrande.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 28px;
+    overflow: hidden;
+}
+
+.navbar ul {
+    display: flex;
+    background: #FFFFFF0A;
+    padding: 9px 30px;
+    gap: 34px;
+    border-radius: 100px;
+    box-shadow: 0px -1px 1px rgba(255, 255, 255, 0.26);
+    height: 50px;
+    width: 530px;
+    align-items: center;
+}
+
+.navbar .list-inline .list-item a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter";
+}
+
+.navbar .last-item a {
+    background: var(--color-red);
+    padding: 10px 14px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 24.1px 0px #6D56105C;
+    font-size: 10px !important;
+}
+
+.navbar .bars-icon {
+    display: none;
+  }
+
+.header-sec {
+    background-image: url(../images/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.main-header {
+    margin-top: 90px;
+}
+
+.main-header .leftside-header {
+    width: 50%;
+}
+
+.main-header .leftside-header h1 {
+    font-size: 99px;
+    line-height: 89px;
+    color: var(--color-red);
+    font-family: "Rio Grande"; 
+}
+
+.main-header .leftside-header p {
+    color: var(--color-light-gray);
+    font-weight: 300;
+    line-height: 28px;
+    padding-right: 135px;
+    margin: 18px 0;
+    
+}
+
+.main-header .leftside-header .btn  {
+    background: var(--color-red);
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 24.1px 0px #6D56105C;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+}
+
+.main-header .leftside-header .btn  a {
+    color: #fff;
+    font-family: "Inter";
+}
+
+
+
+
+
+
