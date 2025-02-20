@@ -33,6 +33,9 @@
         border-radius: 15px;
         margin-top: 15px;
     }
+    .navbar .nav-last-link {
+        display: none;
+    }
     .main-header {
         padding-top: 160px;
         margin-top: 0;
