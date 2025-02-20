@@ -14,7 +14,28 @@
         box-shadow: none !important;
     }
     .navbar {
-        padding: 15px 0;
+        padding: 15px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 99;
+        background: #010101 !important;
+       
+    }
+    .navbar a.nav-link:hover {
+        padding: 10px 14px;
+    }
+    .navbar .show {
+        background: #010101 !important;
+        padding: 26px;
+        border: 1px solid #3d3d3d;
+        border-radius: 15px;
+        margin-top: 15px;
+    }
+    .main-header {
+        padding-top: 160px;
+        margin-top: 0;
     }
     .main-header .leftside-header {
         width: 100%;
