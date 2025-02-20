@@ -73,9 +73,7 @@ a {
     padding: 9px 30px;
     gap: 34px;
     border-radius: 100px;
-    box-shadow: 0px -1px 1px rgba(255, 255, 255, 0.26);
-    /* height: 50px; */
-    /* width: 530px; */
+    box-shadow: 0px -1px 1px 1px rgba(255, 255, 255, 0.26);
     align-items: center;
 }
 
@@ -92,7 +90,7 @@ a {
     background: var(--color-red);
     border-radius: 10px;
     box-shadow: 0px 8px 24.1px 0px #6D56105C;
-    /* font-size: 10px !important; */
+  
 }
 
 .navbar .navbar-toggler-icon {
@@ -351,7 +349,9 @@ a {
 
 .blog-sec {
     padding: 100px 20px;
-   
+    background-image: url(../images/Group-26.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .blog-sec .blog-col {

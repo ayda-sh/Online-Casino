@@ -1,0 +1,96 @@
+@media (max-width:1023px) {
+    .navbar .navbar-brand {
+        display: block !important;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: "Inter";
+        background: var(--color-red);
+        border-radius: 10px;
+        padding: 10px 14px;
+    }
+    .navbar .navbar-nav {
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+    .navbar {
+        padding: 15px 0;
+    }
+    .main-header .leftside-header {
+        width: 100%;
+        text-align: center;
+    }
+    .main-header .leftside-header p {
+        padding-right: 0px;
+    }
+    .main-header .leftside-header h1 {
+        font-size: 60px;
+        
+    }
+    .header-sec {
+        height: 630px;
+    }
+    .features-sec .features-row {
+        flex-wrap: wrap;
+    }
+    .features-sec .leftside-features {
+        width: 100%;
+    }
+    .features-sec .leftside-features h2 {
+        font-size: 28px;  
+    }
+    .rightside-features img {
+        width: 100%;
+    }
+    .rightside-features {
+        display: contents;
+    }
+    .games-sec .popular-games {
+        display: block;  
+    }
+    .games-sec .popular-games .games-box2, .games-sec .popular-games .games-box4, .games-sec .popular-games .games-box6 {
+        margin-right: 0px;
+    }
+    .games-sec .popular-games .games-box1, .games-sec .popular-games .games-box3, .games-sec .popular-games .games-box5 {
+        margin-left: 0px;
+    }
+    .games-sec .games-col {
+        gap: 25px;
+    }
+    .games-sec {
+        background-image: none;
+        padding: 50px 0;
+    }
+    .games-sec .center-img img {
+        width: 100%;
+    }
+    .reliable-sites-sec {
+        margin: 50px 0;
+        
+    }
+    .reliable-sites-sec .sites-row {
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+    }
+    .reliable-sites-sec .sites-row .sites-box {
+        width: 100%;
+    }
+    .blog-sec {
+        padding: 50px 0px;
+    }
+    .blog-sec .blog-col {
+        padding: 0px;
+    }
+    .blog-sec .blog-col h3 {
+        width: 100%;
+        font-size: 22px;
+    }
+    .faq-sec {
+        padding: 50px 0;
+    }
+    .faq-sec .faq-title h3 {
+        font-size: 28px;
+    }
+    
+}
+
