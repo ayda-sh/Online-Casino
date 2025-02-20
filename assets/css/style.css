@@ -21,6 +21,7 @@
     --color-light-gray-3: #F7F7F7; 
     --color-bg: #0b0a0f; 
     --color-border-red: #d74342;
+    --color-game-box: #44101047;
 }
 
 body {
@@ -195,3 +196,59 @@ a {
     position: relative;
 }
 
+.games-sec {
+    padding: 100px 0;
+    background-image: url(../images/Group\ 1\ \(2\).png);
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.games-sec .games-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}  
+
+.games-sec .popular-games {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.games-sec .games-col {
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+}
+
+.games-sec .popular-games .games-box {
+    text-align: center;
+    background: var(--color-game-box);
+    box-shadow: 0px -1px 1px #F13D3D;
+    border-radius: 24px;
+    padding: 20px;
+  
+    
+}
+
+.games-sec .popular-games .games-box h4 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.games-sec .popular-games .games-box p {
+    color: var(--color-gray);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.games-sec .popular-games .games-box1, .games-sec .popular-games .games-box3, .games-sec .popular-games .games-box5 {
+    margin-left: 90px;
+}
+
+.games-sec .popular-games .games-box2, .games-sec .popular-games .games-box4, .games-sec .popular-games .games-box6 {
+    margin-right: 90px;
+}
